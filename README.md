@@ -27,3 +27,8 @@ Run the following command from the root directory to translate the proto files (
 
     docker run --rm -v ~/Git/grpc-greeter:/app protos
 
+### Resources
+
+- [Official gRPC docs](https://grpc.io/docs/)
+- [gRPC Web](https://github.com/grpc/grpc-web)
+- [Is gRPC the Future of Client-Server Communication?](https://medium.com/@EdgePress/is-grpc-the-future-of-client-server-communication-b112acf9f365)
