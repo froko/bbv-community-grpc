@@ -2,6 +2,10 @@
 
 ## A gRPC playground environment with ASP.NET Core & Angular 8
 
+### Link to the slides
+
+[https://gitpitch.com/froko/bbv-community-grpc/]
+
 ### How to run
 This workspace uses Docker-Compose to get things up and running. In order to build all required assets,  just run the following command:
 
