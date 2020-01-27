@@ -1,0 +1,46 @@
+{
+  "extends": ["tslint:recommended", "tslint-angular", "tslint-config-prettier"],
+  "rules": {
+    "directive-selector": [true, "attribute", "app", "camelCase"],
+    "component-selector": [true, "element", "app", "kebab-case"],
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "angular",
+            "match": "^@angular",
+            "order": 1
+          },
+          {
+            "name": "scoped_paths",
+            "match": "^@",
+            "order": 3
+          },
+          {
+            "name": "node_modules",
+            "match": "^[a-zA-Z]",
+            "order": 2
+          },
+          {
+            "name": "parent",
+            "match": "^../",
+            "order": 3
+          },
+          {
+            "name": "silbing",
+            "match": "^./",
+            "order": 4
+          },
+          {
+            "match": null,
+            "order": 5
+          }
+        ]
+      }
+    ]
+  },
+  "rulesDirectory": ["codelyzer"]
+}

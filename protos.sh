@@ -1,0 +1,1 @@
+docker run --rm -v ~/Git/grpc-greeter:/app protos
